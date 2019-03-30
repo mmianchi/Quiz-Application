@@ -49,8 +49,6 @@ let controller = (function (quizCtrl, UICtrl) {
   
   selectDomItems.questInsertBtn.addEventListener("click", function() {
 
-    // let newQuestionText = selectDomItems.newQuestionText.value;
-    // console.log(newQuestionText);
     quizCtrl.addQuestionOnLocalStorage(selectDomItems.newQuestionText , selectDomItems.adminOption);
 
   });
